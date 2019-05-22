@@ -1,0 +1,354 @@
+body {
+  margin: 0;
+  color: #000;
+  font: normal 16px/24px "Arial Regular", sans-serif;
+  background: #fff;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+p {
+  margin: 0;
+  padding: 10px 0;
+}
+
+a {
+  color: #010101;
+  text-decoration: none;
+}
+
+a img {
+  border: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  color: #000;
+}
+
+form,
+menu,
+iframe {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+ol, ul, dl, li, dt, dd {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+* {
+  outline: none;
+}
+
+.resize {
+	margin: 0 auto;
+	width: 980px;
+}
+
+.green-line {
+	background: #37a14c;
+	color: #ffffff;
+	line-height: 21px;
+}
+
+.green-line p {
+padding: 15px 10px 0 0;
+}
+
+.green-line .resize p {
+	display: block;
+	float: left;
+	width: 500px;
+}
+
+a.fb,.vk,.en {
+	display: inline-block;
+	font-size: 0;
+	line-height: 0;
+}
+
+a.vk:before {
+	content: "";
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background: url(../images/icon-vk.png) no-repeat center/32px;
+}
+
+a.en:before {
+	content: "";
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background: url(../images/icon-english.png) no-repeat center/32px;
+}
+
+a.fb:before {
+	content: "";
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background: url(../images/icon-fb.png) no-repeat center/32px;
+}
+.green-line .resize .social {
+	float: right;
+	width: 110px;
+	padding: 8px 0 8px 230px; 
+}
+
+.logo {
+	float: left;
+	width: 150px;
+	padding: 14px 0 8px 0;
+}
+
+.contacts {
+	float: left;
+	width: 270px;
+	color: #0f680e;
+	padding: 1px 0px 11px 37px;
+}
+
+.contacts a {
+	color: #1200ff;
+}
+
+.contacts span {
+	font-size: 20px;
+	padding-left: 88px;
+	line-height: normal;
+}
+
+.contacts .adm{
+	padding-left: 35px;
+}
+
+.contacts .dont {
+	padding-left: 8px;
+}
+
+.contacts .sk {
+	color: #000000;
+}
+
+.contacts .skype {
+	font-size: 16px;
+	padding-left: 8px;
+}
+
+.contacts p {
+	line-height: 2px;
+	margin-bottom: -12px;
+}
+
+a.skype {
+	display: inline-block;
+}
+
+.resize .contacts .skyp:before {
+	content: "";
+	display: inline-block;
+	margin: -7px 7px 0px 0;
+	width: 24px;
+	height: 24px;
+	background: url(../images/icon-skype.png) no-repeat center center;
+	background-size: 24px;
+}
+
+.button {
+	float: left;
+	width: 140px;
+	padding: 11px 0px 30px 18px;
+	line-height: 45px;
+}
+
+.but1 {
+	background: #fdcf09;
+	color: #ffffff;
+	text-align: center;
+	padding: 9px 7px;
+	border: 1px solid #f3ec19;
+	border-bottom: 2px solid #293224;
+	border-radius: 6px;
+}
+
+.but2 {
+	background: #fdcf09;
+	color: #ffffff;
+	text-align: center;
+	padding: 9px 26px 9px 26px;
+	border: 1px solid #f3ec19;
+	border-bottom: 2px solid #293224;
+	border-radius: 6px;
+}
+
+.logo-righ {
+	float: right;
+	padding: 23px 0px 25px 0px;
+}
+
+.menu-bg {
+	overflow: hidden;
+	background: #39a44e;
+}
+
+.resize-main-menu li {
+	float: left;
+	width: 20%;
+	box-sizing: border-box;
+	text-align: center;
+	padding: 10px 2px;
+	background: #39a44e;
+	border-left: 1px solid #247634;
+	border-right: 1px solid #57e974;
+}
+
+.resize-main-menu {
+	border-left: 1px solid #57e974;
+	border-right: 1px solid #247634;
+}
+
+.resize-main-menu li:hover {
+	background: #3fcb5a;
+}
+
+.resize-main-menu li a {
+	display: block;
+	color: #ffffff;
+}
+
+.sidebar {
+	float: left;
+	font-size: 20px;
+	line-height: 20px;
+	width: 240px;
+	padding: 9px 0px 0px 0;
+}
+
+.sidebar li {
+	padding: 15.5px 0;
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.sidebar .ulred {
+	padding-top: 10px;
+}
+
+.ulred .red {
+	padding: 1px 20px;
+	border: none ! important;
+}
+
+.red a {
+	font-size: 16px;
+	color: #ff0000;
+}
+
+.sidebar .ulred li a:before {
+	content: "-";
+	padding-right: 2px;
+}
+
+h1 {
+	display: block;
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding: 18px 0px 17px 252px;
+}
+
+h2 {
+	display: block;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding: 445px 0px 10px 252px;
+}
+
+.mainbar {
+	float: right;
+	width: 727px;
+}
+
+.article p {
+	font-size: 14px;
+	line-height: 20px;
+	padding: 7px 0 25px 0;
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.new1 {
+	float: left;
+	width: 232px;
+	padding: 5px 0px 15px 244px;
+}
+
+.new2 {
+	float: left;
+	width: 232px;
+	padding: 5px 0px 15px 20px;
+
+}
+
+.new3 {
+	float: left;
+	width: 232px;
+	padding: 5px 0px 15px 20px;
+}
+
+.new span {
+	display: inline-block;
+	color: #ffffff;
+}
+
+.new p {
+	height: 82px;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 10px 30px 0px 7px;
+	background: linear-gradient(#309444, #45bc5c);
+}
+
+.yellow-line {
+	background: #fdc60c;
+}
+
+.bot {
+	float: left;
+	width: 500px;
+	color: #ffffff;
+	padding: 15px 10px 3px 0px;
+	font-size: 20px;
+	line-height: 24px;
+	}
+
+.yellow-line .resize .contacts {
+	float: right;
+	color: #000000;
+}
+
+.logo-line {
+	background: #3fa654;
+	text-align: center;
+}
+
+.logo-line img {
+	display: inline-block;
+	padding: 15px 35px 15px 0px;
+}
+
+.copyrights {
+	padding: 5px 10px 3px 0px;
+}
